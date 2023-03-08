@@ -1,0 +1,242 @@
+.info{
+    top:236px;
+    left: 100px;
+    width: 710px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap:24px;
+}
+.title{
+  width: 708px;
+  height: 60px;
+}
+.title h3{
+    width: 708px ;
+    border-bottom: 1px solid silver;
+
+}
+.detail{
+    width: 708px;
+    height: 292px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+.detail input{
+    padding: 0 0 0 10px;
+}
+.div1{
+    width: 708px;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+}
+.fullnameorder{
+    width: 287px;
+    height: 80px;
+    display: flex;
+    flex-direction:column;
+    gap: 8px; 
+}
+.fullnameorder input{
+    width: 287px;
+    height: 52px;
+   
+}
+.fullnameorder p{
+    font-size: 16px;
+    width: 76px;
+    height: 20px;
+}
+.number{
+    width: 392px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap:8px
+}
+.number input{
+    width: 392px;
+    height: 52px;
+    
+}
+.street{
+    width: 287px;
+    height: 80px;
+    display: flex;
+    flex-direction:column;
+    gap: 8px; 
+}
+.street input{
+    width: 287px;
+    height: 52px;
+}
+.state{
+    width: 392px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap:8px   
+}
+.state select{
+    width: 392px;
+    height: 52px;
+}
+.city{
+    width: 287px;
+    height: 80px;
+    display: flex;
+    flex-direction:column;
+    gap: 8px; 
+}
+.city select{
+    width: 287px;
+    height: 52px;
+}
+.zipcode{
+    width: 392px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap:8px 
+}
+.zipcode input{
+    width: 392px;
+    height: 52px;
+}
+.info input,select{
+    background-color: rgb(218, 216, 216);
+    border-radius: 5px;
+    border: none;
+}
+.payment{
+    position: absolute;
+    left: 100px;
+    width: 708px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    top:600px;
+}
+.paytitle{
+    width: 708px;
+    height: 60px;
+}
+.paytitle h3{
+    width: 708px ;
+    border-bottom: 1px solid silver;
+}
+.payoption{
+    
+    width: 708px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: space-around;
+    position: absolute;
+    top:30px;
+}
+.payoption img{
+    width: 120px;
+    height: 120px;
+    
+}
+.sumary{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+        width: 412px;
+        height: 545px;
+        left: 868px;
+        top:236px;
+}
+.order-sum{
+    width: 412px;
+    height: 60px;
+}
+.order-sum h3{
+    border-bottom: 1px solid silver;
+}
+.product-list{
+    width: 412px;
+    height: 224px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    max-height: 224px;
+    overflow-y: auto;
+}
+.product-detail{
+    width: 393px;
+    height: 87px;
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+    
+    
+
+}
+.product-detail img{
+    width: 75px;
+    height: 80px;
+    left: 4px;
+}
+.order-detail{
+    width: 411px;
+    height: 281px;
+    display: flex;
+    flex-direction: column;
+    gap:19px
+}
+
+.detail-title{
+    width:411px ;
+    height: 60px;
+}
+.detail-title h3{
+    border-bottom: 1px solid silver;
+
+}
+.price-list{
+    width: 388px;
+    height: 116px;
+    display: flex;
+    flex-direction:column;
+    gap:12px
+
+}
+.price-list div{
+    width: 388px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    gap:202px;
+    justify-content: space-between;
+}
+
+.purchase{
+    position: absolute;
+    
+    width: 156px;
+    height: 44px;
+    background-color: #1B4B66;
+    color: white;
+    border-radius: 5px;
+    left: 860px;
+    top:750px;
+    border:none;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+
+}   
+.purchase:hover{
+    box-shadow: 2px silver;
+}
